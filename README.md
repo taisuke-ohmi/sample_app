@@ -37,5 +37,10 @@ $ rails test
 $ rails server
 ```
 
+※ ローカルで試す場合は、アカウント登録後のActivationに必要なURLがメールで受信できないため、ログから以下のようなURLを抽出してアクセスしてください。
+```
+http://localhost:3000/account_activations/d9cuuXiQK6kG7D6hnxwt1g/edit?email=yyyy%40bengo4.com
+```
+
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
